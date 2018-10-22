@@ -36,7 +36,7 @@ const StyledHeader = styled.header`
 	.sub-bar {
 		display: grid;
 		grid-template-columns:auto 1fr;
-		border-buttom: 10px solid ${props => props.theme.lightgrey};
+		border-bottom: 1px solid ${props => props.theme.lightgrey};
 	}
 `;
 
