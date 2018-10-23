@@ -11,7 +11,7 @@ Router.onRouteChangeComplete = () => {
 	Nprogress.done();
 }
 Router.onRouteChangeError = () => {
-	Nprogress.done();
+	Nprogress.done(); 
 }
 
 const Logo = styled.h1`
