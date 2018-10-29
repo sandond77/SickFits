@@ -1,16 +1,3 @@
-import React, { Component } from 'react';
-import { Query } from 'react-apollo';
+import Home from './index';
 
-class items extends Component {
-	render() {
-		return (
-			<div>
-				<p>	
-					Items!
-				</p>
-			</div>
-		);
-	}
-}
-
-export default items;
+export default Home;
