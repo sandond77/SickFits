@@ -1,5 +1,5 @@
 const Mutations = { 
-	async createItem(parents, AbortSignal, ctx, info){
+	async createItem(parents, args, ctx, info){
 
 		const item = await ctx.db.mutation.createItem ({
 			data: {
